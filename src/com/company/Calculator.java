@@ -39,8 +39,8 @@ public class Calculator {
         String strnum1 = str.substring(0, i).trim();
         String strnum2 = str.substring(i + 1).trim();
 
-        String[] aNumbers = new String[]{"1","2","3","4","5","6","7","8","9","10",};
-        String[] rNumbers = new String[]{"I","II","III","IV","V","VI","VII","VIII","IX","X",};
+        String[] aNumbers = new String[] {"1","2","3","4","5","6","7","8","9","10"};
+        String[] rNumbers = new String[] {"I","II","III","IV","V","VI","VII","VIII","IX","X"};
 
         boolean num1isArabic = Arrays.asList(aNumbers).contains(strnum1);
         boolean num2isArabic = Arrays.asList(aNumbers).contains(strnum2);
